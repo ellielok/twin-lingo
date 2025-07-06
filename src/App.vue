@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import title from './assets/whitetitle.png';
+
+// function scrollToTop() {
+//   window.scrollTo({ top: 0, behavior: 'smooth' })
+// }
 </script>
 
 <template>
@@ -52,35 +56,56 @@ import title from './assets/whitetitle.png';
           About KindBite </router-link>
         </li>
       <li class="list-inline-item ">
-        <router-link to="/about" class="text-decoration-none text-secondary">
+        <router-link to="/contact" class="text-decoration-none text-secondary">
           Contact Us</router-link>
           </li>
         </ul>
 
       
       <!-- Footer Note -->
-      <small>Copyright &copy; 2025 KindBite. Rights reserved.  ·  Helping people find food with dignity.</small>
+      <small>Copyright &copy; 2025 KindBite. Rights reserved.  ·  For every kind of help.</small>
     </footer>
+
+    <!-- Back to Top Floating Button -->
+    <!-- <button
+      class="btn btn-secondary back-to-top"
+      @click="scrollToTop"
+      aria-label="Back to Top"
+    >
+      ⬆️
+    </button> -->
 
   </div>
 </template>
 
 
-<style scoped>
-hr {
-  border-color:  #8e8d8d;
-}
 
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #666cf6);
-}
-.logo.sub:hover {
-  filter: drop-shadow(0 0 2em #6fbbfa);
-} */
+<style scoped>
+  hr {
+    border-color:  #8e8d8d;
+  }
+
+  /* .back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    border-radius: 50%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  } */
+
+  /* .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #666cf6);
+  }
+  .logo.sub:hover {
+    filter: drop-shadow(0 0 2em #6fbbfa);
+  } */
 </style>
